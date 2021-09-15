@@ -3,8 +3,10 @@
 <head>
 <meta charset="ISO-8859-1"/>
 <title>Hello Word Spring Boot</title>
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
 </head>
 <body>
 	<h1 th:text="${msg}"></h1>
+	<img alt="" th:src="@{/img/Miku.jpg}">
 </body>
 </html>
